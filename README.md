@@ -1,13 +1,12 @@
 # Lane Detection 
 
-A simple lane detection program made using Python's OpenCV Library
+A simple lane detection program made using Python's OpenCV Library, initially completed as a selection task for SWARM Robotics, IIT Kharagpur in 2022.
 
 ## Instructions 
 
-- The script to be run is `main.py`.
-- It asks the level of the video as a prompt (1,2 or 3) and accordingly detects the path in that video and shows it approppriately.
-- The processed and raw videos can be viewed in the respective folders. 
-- All the functions used for this task are in the `functions.py` file.
+- Usage: `main.py <path-to-video> (optional)`
+- If path is not provided as an argument, the program asks the level of the video as a prompt (1,2 or 3), and accordingly chooses from the 3 pre-existing videos
+- All the functions used for this program are in the `functions.py` file
 
 ## Process and Methods Used
 - Opening the video frame-by-frame using OpenCV library 
