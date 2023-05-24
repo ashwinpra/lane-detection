@@ -4,9 +4,11 @@ A simple lane detection program made using Python's OpenCV Library, initially co
 
 ## Instructions 
 
-- Usage: `main.py <path-to-video> (optional)`
+- Usage: `python3 main.py <path-to-video> (optional)`
 - If path is not provided as an argument, the program asks the level of the video as a prompt (1,2 or 3), and accordingly chooses from the 3 pre-existing videos
 - All the functions used for this program are in the `functions.py` file
+
+--- 
 
 ## Process and Methods Used
 - Opening the video frame-by-frame using OpenCV library 
